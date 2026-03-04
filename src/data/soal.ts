@@ -129,7 +129,7 @@ export const soalData: Soal[] = [
       { center: { t: 'segi6', f: false, dots: 4 }, tl: { t: 'circle', f: false }, tr: { t: 'square', f: true }, bl: { t: 'star', f: false }, br: { t: 'star', f: false } },
     ],
     options: [
-      { label: 'A', center: { t: 'segi8', f: false, dots: 5 }, tl: { t: 'square', f: false }, tr: { t: 'diamond', f: true }, bl: { t: 'circle', f: false }, br: { t: 'circle', f: false } },
+      { label: 'A', center: { t: 'segi8', f: false, dots: 5 }, tl: { t: 'circle', f: false }, tr: { t: 'circle', f: true }, bl: { t: 'diamond', f: false }, br: { t: 'square', f: false } },
       { label: 'B', center: { t: 'segi8', f: false, dots: 4 }, tl: { t: 'square', f: false }, tr: { t: 'diamond', f: true }, bl: { t: 'circle', f: false }, br: { t: 'circle', f: false } },
       { label: 'C', center: { t: 'segi6', f: false, dots: 5 }, tl: { t: 'square', f: false }, tr: { t: 'diamond', f: true }, bl: { t: 'circle', f: false }, br: { t: 'circle', f: false } },
       { label: 'D', center: { t: 'segi8', f: false, dots: 5 }, tl: { t: 'diamond', f: false }, tr: { t: 'square', f: true }, bl: { t: 'circle', f: false }, br: { t: 'circle', f: false } },
