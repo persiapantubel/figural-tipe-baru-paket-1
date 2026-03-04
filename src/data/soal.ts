@@ -180,7 +180,7 @@ export const soalData: Soal[] = [
       { label: 'A', center: { t: 'segi8', f: false }, tl: { t: 'square', f: false }, tr: { t: 'segi6', f: true }, bl: { t: 'segi5', f: false }, br: { t: 'segi7', f: true } },
       { label: 'B', center: { t: 'segi8', f: false }, tl: { t: 'square', f: false }, tr: { t: 'segi7', f: true }, bl: { t: 'segi5', f: false }, br: { t: 'segi7', f: true } },
       { label: 'C', center: { t: 'segi8', f: false }, tl: { t: 'square', f: true }, tr: { t: 'segi6', f: true }, bl: { t: 'segi5', f: false }, br: { t: 'segi7', f: true } },
-      { label: 'D', center: { t: 'segi7', f: false }, tl: { t: 'square', f: false }, tr: { t: 'segi6', f: true }, bl: { t: 'segi5', f: false }, br: { t: 'segi7', f: true } },
+      { label: 'D', center: { t: 'segi7', f: false }, tl: { t: 'square', f: true }, tr: { t: 'segi6', f: true }, bl: { t: 'segi5', f: false }, br: { t: 'segi7', f: true } },
       { label: 'E', center: { t: 'segi8', f: false }, tl: { t: 'segi6', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi7', f: false }, br: { t: 'segi5', f: true } },
     ]
   },
