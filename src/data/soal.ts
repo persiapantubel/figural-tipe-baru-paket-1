@@ -33,11 +33,11 @@ export const soalData: Soal[] = [
       { center: { t: 'segi6', f: true }, tl: { t: 'circle', f: true }, tr: { t: 'square', f: false }, bl: { t: 'segi3', f: true }, br: { t: 'star', f: true } },
     ],
     options: [
-      { label: 'A', center: { t: 'segi7', f: true }, tl: { t: 'segi3', f: true }, tr: { t: 'circle', f: true }, bl: { t: 'star', f: true }, br: { t: 'square', f: false } },
+      { label: 'A', center: { t: 'segi7', f: false }, tl: { t: 'segi3', f: true }, tr: { t: 'circle', f: true }, bl: { t: 'star', f: true }, br: { t: 'square', f: false } },
       { label: 'B', center: { t: 'segi7', f: false }, tl: { t: 'segi3', f: false }, tr: { t: 'circle', f: false }, bl: { t: 'star', f: true }, br: { t: 'square', f: true } },
       { label: 'C', center: { t: 'segi7', f: false }, tl: { t: 'segi3', f: true }, tr: { t: 'circle', f: false }, bl: { t: 'star', f: false }, br: { t: 'square', f: false } },
       { label: 'D', center: { t: 'segi7', f: false }, tl: { t: 'segi3', f: false }, tr: { t: 'circle', f: true }, bl: { t: 'star', f: true }, br: { t: 'square', f: false } },
-      { label: 'E', center: { t: 'segi8', f: true }, tl: { t: 'segi3', f: false }, tr: { t: 'circle', f: true }, bl: { t: 'star', f: false }, br: { t: 'square', f: true } },
+      { label: 'E', center: { t: 'segi7', f: false }, tl: { t: 'segi3', f: false }, tr: { t: 'circle', f: true }, bl: { t: 'star', f: false }, br: { t: 'square', f: true } },
     ]
   },
   {
