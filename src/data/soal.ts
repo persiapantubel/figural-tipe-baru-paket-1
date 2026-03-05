@@ -157,7 +157,7 @@ export const soalData: Soal[] = [
       { label: 'B', center: { t: 'segi6', f: true, inT: 'star', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
       { label: 'C', center: { t: 'segi7', f: true, inT: 'circle', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
       { label: 'D', center: { t: 'segi7', f: true, inT: 'star', inF: false }, tl: { t: 'square', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'segi6', f: true }, br: { t: 'segi5', f: false } },
-      { label: 'E', center: { t: 'segi7', f: true, inT: 'star', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: false }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
+      { label: 'E', center: { t: 'segi7', f: true, inT: 'star', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
     ]
   },
   {
