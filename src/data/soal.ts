@@ -98,14 +98,14 @@ export const soalData: Soal[] = [
       "4. Evolusi Bentuk Sudut: Setiap kali elemen berpindah posisi, bentuknya berevolusi maju 1 tahap sesuai siklus berulang: Lingkaran -> Segitiga -> Persegi -> Bintang -> Belah Ketupat -> kembali ke Lingkaran.",
       "5. Aturan Statis Warna Sudut: Posisi menentukan warna. Jika elemen berada di sisi Kiri (Kiri Atas / Kiri Bawah), otomatis berwarna Putih. Jika berada di sisi Kanan (Kanan Atas / Kanan Bawah), otomatis berwarna Hitam."
     ],
-    boxes: [
+boxes: [
       { center: { t: 'segi4', f: false }, tl: { t: 'circle', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'star', f: false }, br: { t: 'diamond', f: true } },
       { center: { t: 'segi5', f: true }, tl: { t: 'circle', f: false }, tr: { t: 'diamond', f: true }, bl: { t: 'square', f: false }, br: { t: 'segi3', f: true } },
       { center: { t: 'segi6', f: false }, tl: { t: 'circle', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'square', f: false }, br: { t: 'star', f: true } },
       { center: { t: 'segi7', f: true }, tl: { t: 'diamond', f: false }, tr: { t: 'star', f: true }, bl: { t: 'square', f: false }, br: { t: 'segi3', f: true } },
     ],
     options: [
-      { label: 'A', center: { t: 'segi8', f: false }, tl: { t: 'diamond', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'square', f: false }, br: { t: 'star', f: true } },
+      { label: 'A', center: { t: 'segi8', f: false }, tl: { t: 'diamond', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'square', f: false }, br: { t: 'circle', f: true } },
       { label: 'B', center: { t: 'segi8', f: false }, tl: { t: 'square', f: false }, tr: { t: 'circle', f: true }, bl: { t: 'square', f: false }, br: { t: 'star', f: true } },
       { label: 'C', center: { t: 'segi8', f: false }, tl: { t: 'star', f: false }, tr: { t: 'circle', f: true }, bl: { t: 'square', f: false }, br: { t: 'star', f: true } },
       { label: 'D', center: { t: 'segi8', f: false }, tl: { t: 'diamond', f: false }, tr: { t: 'diamond', f: true }, bl: { t: 'square', f: false }, br: { t: 'star', f: true } },
