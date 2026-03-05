@@ -26,19 +26,19 @@ export const soalData: Soal[] = [
       "4. Warna Elemen Sudut: Elemen apa pun yang masuk menempati posisi Kiri Atas akan selalu mengalami pembalikan warna (Hitam menjadi Putih, atau Putih menjadi Hitam). Posisi lainnya mempertahankan warna yang dibawa.",
       "5. Hasil Akhir Kotak 5: Dari kotak 4, Segitiga Hitam berputar ke Kiri Atas dan warnanya terbalik menjadi Segitiga Putih. Lingkaran Hitam berputar ke Kanan Atas. Persegi Putih berputar ke Kanan Bawah. Bintang Hitam berputar ke Kiri Bawah."
     ],
-    boxes: [
-      { center: { t: 'segi3', f: false }, tl: { t: 'segi3', f: true }, tr: { t: 'circle', f: false }, bl: { t: 'star', f: false }, br: { t: 'square', f: true } },
-      { center: { t: 'square', f: true }, tl: { t: 'star', f: true }, tr: { t: 'segi3', f: true }, bl: { t: 'square', f: true }, br: { t: 'circle', f: false } },
-      { center: { t: 'segi5', f: false }, tl: { t: 'square', f: false }, tr: { t: 'star', f: true }, bl: { t: 'circle', f: false }, br: { t: 'segi3', f: true } },
-      { center: { t: 'segi6', f: true }, tl: { t: 'circle', f: true }, tr: { t: 'square', f: false }, bl: { t: 'segi3', f: true }, br: { t: 'star', f: true } },
-    ],
-    options: [
-      { label: 'A', center: { t: 'segi7', f: false }, tl: { t: 'segi3', f: true }, tr: { t: 'circle', f: true }, bl: { t: 'star', f: true }, br: { t: 'square', f: false } },
-      { label: 'B', center: { t: 'segi7', f: false }, tl: { t: 'segi3', f: false }, tr: { t: 'circle', f: false }, bl: { t: 'star', f: true }, br: { t: 'square', f: true } },
-      { label: 'C', center: { t: 'segi7', f: false }, tl: { t: 'segi3', f: true }, tr: { t: 'circle', f: false }, bl: { t: 'star', f: false }, br: { t: 'square', f: false } },
-      { label: 'D', center: { t: 'segi7', f: false }, tl: { t: 'segi3', f: false }, tr: { t: 'circle', f: true }, bl: { t: 'star', f: true }, br: { t: 'square', f: false } },
-      { label: 'E', center: { t: 'segi7', f: false }, tl: { t: 'segi3', f: false }, tr: { t: 'circle', f: true }, bl: { t: 'star', f: false }, br: { t: 'square', f: true } },
-    ]
+boxes: [
+  { tl: { t: 'trapesium', f: false }, tr: { t: 'elips', f: true }, bl: { t: 'tambah', f: true, dots: 1 }, br: { t: 'jajargenjang', f: false, rot: 'horizontal' } },
+  { tl: { t: 'elips', f: false }, tr: { t: 'jajargenjang', f: true, rot: 'vertikal' }, bl: { t: 'trapesium', f: true }, br: { t: 'tambah', f: false, dots: 2 } },
+  { tl: { t: 'jajargenjang', f: false, rot: 'horizontal' }, tr: { t: 'tambah', f: true, dots: 3 }, bl: { t: 'elips', f: true }, br: { t: 'trapesium', f: false } },
+  { tl: { t: 'tambah', f: false, dots: 4 }, tr: { t: 'trapesium', f: true }, bl: { t: 'jajargenjang', f: true, rot: 'vertikal' }, br: { t: 'elips', f: false } },
+],
+options: [
+  { label: 'A', tl: { t: 'trapesium', f: false }, tr: { t: 'elips', f: false }, bl: { t: 'tambah', f: true, dots: 5 }, br: { t: 'jajargenjang', f: false, rot: 'vertikal' } },
+  { label: 'B', tl: { t: 'elips', f: true }, tr: { t: 'trapesium', f: false }, bl: { t: 'jajargenjang', f: true, rot: 'horizontal' }, br: { t: 'tambah', f: false, dots: 5 } },
+  { label: 'C', tl: { t: 'trapesium', f: false }, tr: { t: 'elips', f: true }, bl: { t: 'tambah', f: true, dots: 5 }, br: { t: 'jajargenjang', f: false, rot: 'horizontal' } },
+  { label: 'D', tl: { t: 'trapesium', f: false }, tr: { t: 'elips', f: true }, bl: { t: 'tambah', f: true, dots: 4 }, br: { t: 'jajargenjang', f: false, rot: 'horizontal' } },
+  { label: 'E', tl: { t: 'tambah', f: false, dots: 5 }, tr: { t: 'trapesium', f: true }, bl: { t: 'elips', f: true }, br: { t: 'jajargenjang', f: false, rot: 'vertikal' } },
+]
   },
   {
     id: 2,
@@ -50,19 +50,19 @@ export const soalData: Soal[] = [
       "4. Warna Elemen Sudut: Berlaku aturan statis ruang. Elemen apa pun yang sedang berada di posisi Kanan Bawah otomatis diarsir Hitam, sedangkan elemen di tiga posisi lainnya otomatis menjadi Putih.",
       "5. Hasil Akhir Kotak 5: Karena pergeseran sejauh empat posisi, tata letak bangun kembali sama persis dengan kotak 4. Warnanya mengikuti aturan statis ruang tersebut."
     ],
-    boxes: [
-      { center: { t: 'segi8', f: false, dots: 1 }, tl: { t: 'circle', f: false }, tr: { t: 'segi3', f: false }, bl: { t: 'star', f: false }, br: { t: 'square', f: true } },
-      { center: { t: 'segi7', f: false, dots: 2 }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: false }, bl: { t: 'circle', f: false }, br: { t: 'star', f: true } },
-      { center: { t: 'segi6', f: false, dots: 3 }, tl: { t: 'star', f: false }, tr: { t: 'circle', f: false }, bl: { t: 'square', f: false }, br: { t: 'segi3', f: true } },
-      { center: { t: 'segi5', f: false, dots: 4 }, tl: { t: 'square', f: false }, tr: { t: 'segi3', f: false }, bl: { t: 'star', f: false }, br: { t: 'circle', f: true } },
-    ],
-    options: [
-      { label: 'A', center: { t: 'square', f: false, dots: 4 }, tl: { t: 'circle', f: false }, tr: { t: 'square', f: false }, bl: { t: 'segi3', f: false }, br: { t: 'star', f: true } },
-      { label: 'B', center: { t: 'square', f: false, dots: 5 }, tl: { t: 'square', f: false }, tr: { t: 'segi3', f: false }, bl: { t: 'star', f: false }, br: { t: 'circle', f: true } },
-      { label: 'C', center: { t: 'square', f: false, dots: 5 }, tl: { t: 'segi3', f: false }, tr: { t: 'circle', f: false }, bl: { t: 'star', f: false }, br: { t: 'square', f: true } },
-      { label: 'D', center: { t: 'segi3', f: false, dots: 5 }, tl: { t: 'square', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'star', f: true }, br: { t: 'circle', f: false } },
-      { label: 'E', center: { t: 'square', f: false, dots: 5 }, tl: { t: 'circle', f: false }, tr: { t: 'star', f: false }, bl: { t: 'square', f: false }, br: { t: 'segi3', f: true } },
-    ]
+boxes: [
+  { tl: { t: 'hati' }, tr: { t: 'panah', rot: '0 derajat' }, bl: { t: 'bulan', hadap: 'kiri' }, br: { t: 'bunga', kelopak: 8 } },
+  { tl: { t: 'bunga', kelopak: 7 }, tr: { t: 'panah', rot: '45 derajat' }, bl: { t: 'bulan', hadap: 'kanan' }, br: { t: 'hati' } },
+  { tl: { t: 'bunga', kelopak: 6 }, tr: { t: 'bulan', hadap: 'kiri' }, bl: { t: 'panah', rot: '90 derajat' }, br: { t: 'hati' } },
+  { tl: { t: 'hati' }, tr: { t: 'bulan', hadap: 'kanan' }, bl: { t: 'panah', rot: '135 derajat' }, br: { t: 'bunga', kelopak: 5 } },
+],
+options: [
+  { label: 'A', tl: { t: 'hati' }, tr: { t: 'bulan', hadap: 'kiri' }, bl: { t: 'panah', rot: '180 derajat' }, br: { t: 'bunga', kelopak: 4 } },
+  { label: 'B', tl: { t: 'bunga', kelopak: 4 }, tr: { t: 'panah', rot: '180 derajat' }, bl: { t: 'bulan', hadap: 'kanan' }, br: { t: 'hati' } },
+  { label: 'C', tl: { t: 'hati' }, tr: { t: 'panah', rot: '135 derajat' }, bl: { t: 'bulan', hadap: 'kiri' }, br: { t: 'bunga', kelopak: 4 } },
+  { label: 'D', tl: { t: 'hati' }, tr: { t: 'panah', rot: '180 derajat' }, bl: { t: 'bulan', hadap: 'kanan' }, br: { t: 'bunga', kelopak: 4 } },
+  { label: 'E', tl: { t: 'hati' }, tr: { t: 'panah', rot: '180 derajat' }, bl: { t: 'bulan', hadap: 'kiri' }, br: { t: 'bunga', kelopak: 4 } },
+]
   },
   {
     id: 3,
@@ -74,19 +74,19 @@ export const soalData: Soal[] = [
       "4. Perubahan Bentuk Sudut: Seluruh elemen mengalami evolusi bentuk ke tahap selanjutnya setiap berpindah kotak mengikuti siklus pasti: Lingkaran menjadi Persegi, Persegi menjadi Segitiga, Segitiga menjadi Bintang, Bintang menjadi Belah Ketupat, dan Belah Ketupat kembali menjadi Lingkaran.",
       "5. Hasil Akhir Kotak 5: Terapkan pertukaran posisi dari kotak 4 lalu ubah masing-masing bentuknya 1 tahap sesuai siklus di atas."
     ],
-    boxes: [
-      { center: { t: 'segi7', f: true, inT: 'segi3', inF: false }, tl: { t: 'circle', f: false }, tr: { t: 'square', f: false }, bl: { t: 'segi3', f: false }, br: { t: 'star', f: false } },
-      { center: { t: 'segi6', f: true, inT: 'square', inF: false }, tl: { t: 'diamond', f: false }, tr: { t: 'star', f: false }, bl: { t: 'segi3', f: false }, br: { t: 'square', f: false } },
-      { center: { t: 'segi5', f: true, inT: 'segi5', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'diamond', f: false }, bl: { t: 'star', f: false }, br: { t: 'circle', f: false } },
-      { center: { t: 'square', f: true, inT: 'segi6', inF: false }, tl: { t: 'square', f: false }, tr: { t: 'diamond', f: false }, bl: { t: 'circle', f: false }, br: { t: 'star', f: false } },
-    ],
-    options: [
-      { label: 'A', center: { t: 'segi3', f: true, inT: 'segi7', inF: false }, tl: { t: 'circle', f: false }, tr: { t: 'diamond', f: false }, bl: { t: 'segi3', f: false }, br: { t: 'square', f: false } },
-      { label: 'B', center: { t: 'segi5', f: true, inT: 'segi7', inF: false }, tl: { t: 'diamond', f: false }, tr: { t: 'square', f: false }, bl: { t: 'circle', f: false }, br: { t: 'segi3', f: false } },
-      { label: 'C', center: { t: 'segi3', f: true, inT: 'segi8', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'circle', f: false }, bl: { t: 'square', f: false }, br: { t: 'diamond', f: false } },
-      { label: 'D', center: { t: 'segi3', f: true, inT: 'segi7', inF: false }, tl: { t: 'diamond', f: false }, tr: { t: 'circle', f: false }, bl: { t: 'square', f: false }, br: { t: 'star', f: false } },
-      { label: 'E', center: { t: 'segi3', f: true, inT: 'segi7', inF: false }, tl: { t: 'diamond', f: false }, tr: { t: 'circle', f: false }, bl: { t: 'square', f: false }, br: { t: 'segi3', f: false } },
-    ]
+boxes: [
+  { tl: { t: 'silinder', f: false, pos: 'tegak' }, tr: { t: 'kerucut', f: false }, bl: { t: 'kubus', f: true, titik: 2 }, br: { t: 'piramida', f: false } },
+  { tl: { t: 'piramida', f: false }, tr: { t: 'silinder', f: false, pos: 'mendatar' }, bl: { t: 'kerucut', f: true }, br: { t: 'kubus', f: false, titik: 4 } },
+  { tl: { t: 'kubus', f: false, titik: 6 }, tr: { t: 'piramida', f: false }, bl: { t: 'silinder', f: true, pos: 'tegak' }, br: { t: 'kerucut', f: false } },
+  { tl: { t: 'kerucut', f: false }, tr: { t: 'kubus', f: false, titik: 8 }, bl: { t: 'piramida', f: true }, br: { t: 'silinder', f: false, pos: 'mendatar' } },
+],
+options: [
+  { label: 'A', tl: { t: 'silinder', f: false, pos: 'mendatar' }, tr: { t: 'kerucut', f: true }, bl: { t: 'kubus', f: false, titik: 10 }, br: { t: 'piramida', f: false } },
+  { label: 'B', tl: { t: 'silinder', f: false, pos: 'tegak' }, tr: { t: 'kerucut', f: false }, bl: { t: 'kubus', f: true, titik: 10 }, br: { t: 'piramida', f: false } },
+  { label: 'C', tl: { t: 'silinder', f: false, pos: 'tegak' }, tr: { t: 'kerucut', f: false }, bl: { t: 'kubus', f: true, titik: 8 }, br: { t: 'piramida', f: false } },
+  { label: 'D', tl: { t: 'piramida', f: false }, tr: { t: 'silinder', f: false, pos: 'tegak' }, bl: { t: 'kerucut', f: true }, br: { t: 'kubus', f: false, titik: 10 } },
+  { label: 'E', tl: { t: 'silinder', f: true, pos: 'tegak' }, tr: { t: 'kerucut', f: false }, bl: { t: 'kubus', f: false, titik: 10 }, br: { t: 'piramida', f: false } },
+]
   },
   {
     id: 4,
