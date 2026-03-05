@@ -244,7 +244,7 @@ export const soalData: Soal[] = [
     ],
     boxes: [
       { center: { t: 'circle', f: true, dots: 1 }, tl: { t: 'circle', f: true }, tr: { t: 'square', f: true }, bl: { t: 'segi8', f: false }, br: { t: 'segi6', f: false } },
-      { center: { t: 'star', f: true, dots: 2 }, tl: { t: 'star', f: true }, tr: { t: 'segi3', f: true }, bl: { t: 'segi7', f: false }, br: { t: 'segi5', f: false } },
+      { center: { t: 'star', f: true, dots: 2 }, tl: { t: 'diamond', f: true }, tr: { t: 'segi3', f: true }, bl: { t: 'segi7', f: false }, br: { t: 'segi5', f: false } },
       { center: { t: 'circle', f: true, dots: 1 }, tl: { t: 'square', f: true }, tr: { t: 'segi6', f: true }, bl: { t: 'circle', f: false }, br: { t: 'segi8', f: false } },
       { center: { t: 'star', f: true, dots: 2 }, tl: { t: 'segi3', f: true }, tr: { t: 'segi5', f: true }, bl: { t: 'diamond', f: false }, br: { t: 'segi7', f: false } },
     ],
