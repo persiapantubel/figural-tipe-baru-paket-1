@@ -225,11 +225,11 @@ export const soalData: Soal[] = [
       { center: { t: 'diamond', f: true, dots: 2 }, tl: { t: 'segi3', f: false }, tr: { t: 'segi3', f: false }, bl: { t: 'segi5', f: true }, br: { t: 'segi7', f: true } },
     ],
     options: [
-      { label: 'A', center: { t: 'segi4', f: false, dots: 1 }, tl: { t: 'segi5', f: false }, tr: { t: 'segi7', f: false }, bl: { t: 'segi3', f: true }, br: { t: 'segi3', f: true } },
-      { label: 'B', center: { t: 'segi4', f: false, dots: 1 }, tl: { t: 'square', f: true }, tr: { t: 'segi7', f: true }, bl: { t: 'segi6', f: false }, br: { t: 'segi3', f: false } },
-      { label: 'C', center: { t: 'segi4', f: false, dots: 1 }, tl: { t: 'square', f: false }, tr: { t: 'segi7', f: false }, bl: { t: 'segi6', f: true }, br: { t: 'segi3', f: true } },
-      { label: 'D', center: { t: 'segi4', f: false, dots: 2 }, tl: { t: 'square', f: false }, tr: { t: 'segi7', f: false }, bl: { t: 'segi6', f: true }, br: { t: 'segi3', f: true } },
-      { label: 'E', center: { t: 'segi4', f: false, dots: 1 }, tl: { t: 'square', f: false }, tr: { t: 'segi3', f: false }, bl: { t: 'segi6', f: true }, br: { t: 'segi7', f: true } },
+      { label: 'A', center: { t: 'segi4', f: false, dots: 1, inF: false }, tl: { t: 'segi5', f: false }, tr: { t: 'segi7', f: false }, bl: { t: 'segi3', f: true }, br: { t: 'segi3', f: true } },
+      { label: 'B', center: { t: 'segi4', f: false, dots: 1, inF: false }, tl: { t: 'square', f: true }, tr: { t: 'segi7', f: true }, bl: { t: 'segi6', f: false }, br: { t: 'segi3', f: false } },
+      { label: 'C', center: { t: 'segi4', f: false, dots: 1, inF: false }, tl: { t: 'square', f: false }, tr: { t: 'segi7', f: false }, bl: { t: 'segi6', f: true }, br: { t: 'segi3', f: true } },
+      { label: 'D', center: { t: 'segi4', f: false, dots: 2, inF: false }, tl: { t: 'square', f: false }, tr: { t: 'segi7', f: false }, bl: { t: 'segi6', f: true }, br: { t: 'segi3', f: true } },
+      { label: 'E', center: { t: 'segi4', f: false, dots: 1, inF: false }, tl: { t: 'square', f: false }, tr: { t: 'segi3', f: false }, bl: { t: 'segi6', f: true }, br: { t: 'segi7', f: true } },
     ]
   },
   {
