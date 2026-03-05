@@ -243,7 +243,7 @@ export const soalData: Soal[] = [
       "5. Eksekusi Kotak 5: Ambil elemen dari kotak 4, putar Berlawanan Arah Jarum Jam 1 posisi. Tambahkan 1 tahap evolusi bentuk pada semuanya, lalu sesuaikan arsirannya berdasarkan apakah mereka berakhir di baris Atas atau Bawah."
     ],
     boxes: [
-      { center: { t: 'circle', f: true, dots: 1 }, tl: { t: 'circle', f: true }, tr: { t: 'segi8', f: true }, bl: { t: 'diamond', f: false }, br: { t: 'segi6', f: false } },
+      { center: { t: 'circle', f: true, dots: 1 }, tl: { t: 'circle', f: true }, tr: { t: 'square', f: true }, bl: { t: 'segi8', f: false }, br: { t: 'segi6', f: false } },
       { center: { t: 'star', f: true, dots: 2 }, tl: { t: 'star', f: true }, tr: { t: 'segi3', f: true }, bl: { t: 'segi7', f: false }, br: { t: 'segi5', f: false } },
       { center: { t: 'circle', f: true, dots: 1 }, tl: { t: 'square', f: true }, tr: { t: 'segi6', f: true }, bl: { t: 'circle', f: false }, br: { t: 'segi8', f: false } },
       { center: { t: 'star', f: true, dots: 2 }, tl: { t: 'segi3', f: true }, tr: { t: 'segi5', f: true }, bl: { t: 'diamond', f: false }, br: { t: 'segi7', f: false } },
