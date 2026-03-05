@@ -197,12 +197,12 @@ export const soalData: Soal[] = [
     boxes: [
       { center: { t: 'segi8', f: true, inT: 'segi3', inF: false }, tl: { t: 'circle', f: false }, tr: { t: 'diamond', f: true }, bl: { t: 'square', f: true }, br: { t: 'segi6', f: false } },
       { center: { t: 'segi7', f: true, inT: 'square', inF: false }, tl: { t: 'star', f: false }, tr: { t: 'segi7', f: true }, bl: { t: 'segi3', f: true }, br: { t: 'segi5', f: false } },
-      { center: { t: 'segi6', f: true, inT: 'segi5', inF: false }, tl: { t: 'segi8', f: false }, tr: { t: 'segi6', f: true }, bl: { t: 'circle', f: true }, br: { t: 'square', f: false } },
-      { center: { t: 'segi5', f: true, inT: 'segi6', inF: false }, tl: { t: 'segi7', f: false }, tr: { t: 'segi5', f: true }, bl: { t: 'diamond', f: true }, br: { t: 'segi3', f: false } },
+      { center: { t: 'segi6', f: true, inT: 'segi5', inF: false }, tl: { t: 'diamond', f: false }, tr: { t: 'segi6', f: true }, bl: { t: 'circle', f: true }, br: { t: 'square', f: false } },
+      { center: { t: 'segi5', f: true, inT: 'segi6', inF: false }, tl: { t: 'segi7', f: false }, tr: { t: 'segi5', f: true }, bl: { t: 'star', f: true }, br: { t: 'segi3', f: false } },
     ],
     options: [
       { label: 'A', center: { t: 'segi4', f: true, inT: 'segi7', inF: false }, tl: { t: 'segi6', f: true }, tr: { t: 'square', f: false }, bl: { t: 'segi8', f: false }, br: { t: 'star', f: true } },
-      { label: 'B', center: { t: 'segi4', f: true, inT: 'segi7', inF: false }, tl: { t: 'segi6', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi8', f: true }, br: { t: 'star', f: false } },
+      { label: 'B', center: { t: 'segi4', f: true, inT: 'segi7', inF: false }, tl: { t: 'segi6', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi8', f: true }, br: { t: 'circle', f: false } },
       { label: 'C', center: { t: 'segi5', f: true, inT: 'segi6', inF: false }, tl: { t: 'segi6', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi8', f: true }, br: { t: 'star', f: false } },
       { label: 'D', center: { t: 'segi4', f: true, inT: 'segi7', inF: false }, tl: { t: 'segi5', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'segi7', f: true }, br: { t: 'diamond', f: false } },
       { label: 'E', center: { t: 'segi4', f: true, inT: 'segi7', inF: false }, tl: { t: 'segi6', f: false }, tr: { t: 'square', f: true }, bl: { t: 'star', f: false }, br: { t: 'segi8', f: true } },
