@@ -125,15 +125,15 @@ export const soalData: Soal[] = [
     boxes: [
       { center: { t: 'segi8', f: false, dots: 1 }, tl: { t: 'circle', f: false }, tr: { t: 'circle', f: true }, bl: { t: 'diamond', f: false }, br: { t: 'square', f: false } },
       { center: { t: 'segi6', f: false, dots: 2 }, tl: { t: 'star', f: false }, tr: { t: 'square', f: true }, bl: { t: 'diamond', f: false }, br: { t: 'square', f: false } },
-      { center: { t: 'segi4', f: false, dots: 3 }, tl: { t: 'diamond', f: false }, tr: { t: 'star', f: true }, bl: { t: 'diamond', f: false }, br: { t: 'circle', f: false } },
-      { center: { t: 'segi6', f: false, dots: 4 }, tl: { t: 'circle', f: false }, tr: { t: 'square', f: true }, bl: { t: 'star', f: false }, br: { t: 'star', f: false } },
+      { center: { t: 'segi4', f: false, dots: 3 }, tl: { t: 'circle', f: false }, tr: { t: 'star', f: true }, bl: { t: 'diamond', f: false }, br: { t: 'diamond', f: false } },
+      { center: { t: 'segi6', f: false, dots: 4 }, tl: { t: 'star', f: false }, tr: { t: 'square', f: true }, bl: { t: 'star', f: false }, br: { t: 'circle', f: false } },
     ],
     options: [
       { label: 'A', center: { t: 'segi8', f: false, dots: 5 }, tl: { t: 'circle', f: false }, tr: { t: 'circle', f: true }, bl: { t: 'diamond', f: false }, br: { t: 'square', f: false } },
       { label: 'B', center: { t: 'segi8', f: false, dots: 4 }, tl: { t: 'square', f: false }, tr: { t: 'diamond', f: true }, bl: { t: 'circle', f: false }, br: { t: 'circle', f: false } },
       { label: 'C', center: { t: 'segi6', f: false, dots: 5 }, tl: { t: 'square', f: false }, tr: { t: 'diamond', f: true }, bl: { t: 'circle', f: false }, br: { t: 'circle', f: false } },
       { label: 'D', center: { t: 'segi8', f: false, dots: 5 }, tl: { t: 'diamond', f: false }, tr: { t: 'square', f: true }, bl: { t: 'circle', f: false }, br: { t: 'circle', f: false } },
-      { label: 'E', center: { t: 'segi8', f: false, dots: 5 }, tl: { t: 'square', f: false }, tr: { t: 'diamond', f: false }, bl: { t: 'circle', f: false }, br: { t: 'circle', f: false } },
+      { center: { t: 'segi7', f: true, inT: 'star', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
     ]
   },
   {
@@ -148,16 +148,16 @@ export const soalData: Soal[] = [
     ],
     boxes: [
       { center: { t: 'segi3', f: true, inT: 'star', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
-      { center: { t: 'segi4', f: true, inT: 'circle', inF: false }, tl: { t: 'segi7', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi3', f: true }, br: { t: 'square', f: false } },
-      { center: { t: 'segi5', f: true, inT: 'square', inF: false }, tl: { t: 'segi5', f: false }, tr: { t: 'segi8', f: true }, bl: { t: 'segi3', f: true }, br: { t: 'circle', f: false } },
-      { center: { t: 'segi6', f: true, inT: 'diamond', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'segi6', f: true }, bl: { t: 'segi7', f: true }, br: { t: 'circle', f: false } },
+      { center: { t: 'segi4', f: true, inT: 'circle', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
+      { center: { t: 'segi5', f: true, inT: 'square', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
+      { center: { t: 'segi6', f: true, inT: 'diamond', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
     ],
     options: [
       { label: 'A', center: { t: 'segi7', f: true, inT: 'star', inF: true }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
       { label: 'B', center: { t: 'segi6', f: true, inT: 'star', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
       { label: 'C', center: { t: 'segi7', f: true, inT: 'circle', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
       { label: 'D', center: { t: 'segi7', f: true, inT: 'star', inF: false }, tl: { t: 'square', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'segi6', f: true }, br: { t: 'segi5', f: false } },
-      { label: 'E', center: { t: 'segi7', f: true, inT: 'star', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
+      { center: { t: 'segi7', f: true, inT: 'star', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } }
     ]
   },
   {
