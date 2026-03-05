@@ -28,7 +28,7 @@ export const soalData: Soal[] = [
     ],
     boxes: [
       { center: { t: 'segi3', f: false }, tl: { t: 'segi3', f: true }, tr: { t: 'circle', f: false }, bl: { t: 'star', f: false }, br: { t: 'square', f: true } },
-      { center: { t: 'segi4', f: true }, tl: { t: 'star', f: true }, tr: { t: 'segi3', f: true }, bl: { t: 'square', f: true }, br: { t: 'circle', f: false } },
+      { center: { t: 'square', f: true }, tl: { t: 'star', f: true }, tr: { t: 'segi3', f: true }, bl: { t: 'square', f: true }, br: { t: 'circle', f: false } },
       { center: { t: 'segi5', f: false }, tl: { t: 'square', f: false }, tr: { t: 'star', f: true }, bl: { t: 'circle', f: false }, br: { t: 'segi3', f: true } },
       { center: { t: 'segi6', f: true }, tl: { t: 'circle', f: true }, tr: { t: 'square', f: false }, bl: { t: 'segi3', f: true }, br: { t: 'star', f: true } },
     ],
@@ -57,11 +57,11 @@ export const soalData: Soal[] = [
       { center: { t: 'segi5', f: false, dots: 4 }, tl: { t: 'square', f: false }, tr: { t: 'segi3', f: false }, bl: { t: 'star', f: false }, br: { t: 'circle', f: true } },
     ],
     options: [
-      { label: 'A', center: { t: 'segi4', f: false, dots: 4 }, tl: { t: 'circle', f: false }, tr: { t: 'square', f: false }, bl: { t: 'segi3', f: false }, br: { t: 'star', f: true } },
-      { label: 'B', center: { t: 'segi4', f: false, dots: 5 }, tl: { t: 'square', f: false }, tr: { t: 'segi3', f: false }, bl: { t: 'star', f: false }, br: { t: 'circle', f: true } },
-      { label: 'C', center: { t: 'segi4', f: false, dots: 5 }, tl: { t: 'segi3', f: false }, tr: { t: 'circle', f: false }, bl: { t: 'star', f: false }, br: { t: 'square', f: true } },
+      { label: 'A', center: { t: 'square', f: false, dots: 4 }, tl: { t: 'circle', f: false }, tr: { t: 'square', f: false }, bl: { t: 'segi3', f: false }, br: { t: 'star', f: true } },
+      { label: 'B', center: { t: 'square', f: false, dots: 5 }, tl: { t: 'square', f: false }, tr: { t: 'segi3', f: false }, bl: { t: 'star', f: false }, br: { t: 'circle', f: true } },
+      { label: 'C', center: { t: 'square', f: false, dots: 5 }, tl: { t: 'segi3', f: false }, tr: { t: 'circle', f: false }, bl: { t: 'star', f: false }, br: { t: 'square', f: true } },
       { label: 'D', center: { t: 'segi3', f: false, dots: 5 }, tl: { t: 'square', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'star', f: true }, br: { t: 'circle', f: false } },
-      { label: 'E', center: { t: 'segi4', f: false, dots: 5 }, tl: { t: 'circle', f: false }, tr: { t: 'star', f: false }, bl: { t: 'square', f: false }, br: { t: 'segi3', f: true } },
+      { label: 'E', center: { t: 'square', f: false, dots: 5 }, tl: { t: 'circle', f: false }, tr: { t: 'star', f: false }, bl: { t: 'square', f: false }, br: { t: 'segi3', f: true } },
     ]
   },
   {
@@ -76,9 +76,9 @@ export const soalData: Soal[] = [
     ],
     boxes: [
       { center: { t: 'segi7', f: true, inT: 'segi3', inF: false }, tl: { t: 'circle', f: false }, tr: { t: 'square', f: false }, bl: { t: 'segi3', f: false }, br: { t: 'star', f: false } },
-      { center: { t: 'segi6', f: true, inT: 'segi4', inF: false }, tl: { t: 'diamond', f: false }, tr: { t: 'star', f: false }, bl: { t: 'segi3', f: false }, br: { t: 'square', f: false } },
+      { center: { t: 'segi6', f: true, inT: 'square', inF: false }, tl: { t: 'diamond', f: false }, tr: { t: 'star', f: false }, bl: { t: 'segi3', f: false }, br: { t: 'square', f: false } },
       { center: { t: 'segi5', f: true, inT: 'segi5', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'diamond', f: false }, bl: { t: 'star', f: false }, br: { t: 'circle', f: false } },
-      { center: { t: 'segi4', f: true, inT: 'segi6', inF: false }, tl: { t: 'square', f: false }, tr: { t: 'diamond', f: false }, bl: { t: 'circle', f: false }, br: { t: 'star', f: false } },
+      { center: { t: 'square', f: true, inT: 'segi6', inF: false }, tl: { t: 'square', f: false }, tr: { t: 'diamond', f: false }, bl: { t: 'circle', f: false }, br: { t: 'star', f: false } },
     ],
     options: [
       { label: 'A', center: { t: 'segi3', f: true, inT: 'segi7', inF: false }, tl: { t: 'circle', f: false }, tr: { t: 'diamond', f: false }, bl: { t: 'segi3', f: false }, br: { t: 'square', f: false } },
@@ -99,7 +99,7 @@ export const soalData: Soal[] = [
       "5. Aturan Statis Warna Sudut: Posisi menentukan warna. Jika elemen berada di sisi Kiri (Kiri Atas / Kiri Bawah), otomatis berwarna Putih. Jika berada di sisi Kanan (Kanan Atas / Kanan Bawah), otomatis berwarna Hitam."
     ],
 boxes: [
-      { center: { t: 'segi4', f: false }, tl: { t: 'circle', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'star', f: false }, br: { t: 'diamond', f: true } },
+      { center: { t: 'square', f: false }, tl: { t: 'circle', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'star', f: false }, br: { t: 'diamond', f: true } },
       { center: { t: 'segi5', f: true }, tl: { t: 'square', f: false }, tr: { t: 'diamond', f: true }, bl: { t: 'circle', f: false }, br: { t: 'segi3', f: true } },
       { center: { t: 'segi6', f: false }, tl: { t: 'circle', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'square', f: false }, br: { t: 'star', f: true } },
       { center: { t: 'segi7', f: true }, tl: { t: 'diamond', f: false }, tr: { t: 'star', f: true }, bl: { t: 'circle', f: false }, br: { t: 'segi3', f: true } },
@@ -125,7 +125,7 @@ boxes: [
     boxes: [
       { center: { t: 'segi8', f: false, dots: 1 }, tl: { t: 'circle', f: false }, tr: { t: 'circle', f: true }, bl: { t: 'diamond', f: false }, br: { t: 'square', f: false } },
       { center: { t: 'segi6', f: false, dots: 2 }, tl: { t: 'star', f: false }, tr: { t: 'square', f: true }, bl: { t: 'diamond', f: false }, br: { t: 'square', f: false } },
-      { center: { t: 'segi4', f: false, dots: 3 }, tl: { t: 'circle', f: false }, tr: { t: 'star', f: true }, bl: { t: 'diamond', f: false }, br: { t: 'diamond', f: false } },
+      { center: { t: 'square', f: false, dots: 3 }, tl: { t: 'circle', f: false }, tr: { t: 'star', f: true }, bl: { t: 'diamond', f: false }, br: { t: 'diamond', f: false } },
       { center: { t: 'segi6', f: false, dots: 4 }, tl: { t: 'star', f: false }, tr: { t: 'square', f: true }, bl: { t: 'star', f: false }, br: { t: 'circle', f: false } },
     ],
     options: [
@@ -148,7 +148,7 @@ boxes: [
     ],
     boxes: [
       { center: { t: 'segi3', f: true, inT: 'star', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
-      { center: { t: 'segi4', f: true, inT: 'circle', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
+      { center: { t: 'square', f: true, inT: 'circle', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
       { center: { t: 'segi5', f: true, inT: 'square', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
       { center: { t: 'segi6', f: true, inT: 'diamond', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
     ],
@@ -171,7 +171,7 @@ boxes: [
       "5. Eksekusi Kotak 5: Terapkan lintasan dari kotak 4. Kiri Atas (Segi-6 Putih) turun ke Kanan Bawah, maka berevolusi menjadi Segi-7 dan warnanya tetap Putih. Kanan Bawah (Persegi Hitam) naik ke Kiri Atas, maka bentuk tetap Persegi, namun warna dibalik menjadi Putih. Lakukan analisa yang sama pada dua elemen diagonal lainnya."
     ],
     boxes: [
-      { center: { t: 'segi4', f: false }, tl: { t: 'circle', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi3', f: false }, br: { t: 'segi5', f: true } },
+      { center: { t: 'square', f: false }, tl: { t: 'circle', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi3', f: false }, br: { t: 'segi5', f: true } },
       { center: { t: 'segi5', f: true }, tl: { t: 'segi5', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi3', f: false } },
       { center: { t: 'segi6', f: false }, tl: { t: 'segi3', f: true }, tr: { t: 'segi5', f: false }, bl: { t: 'square', f: true }, br: { t: 'segi6', f: false } },
       { center: { t: 'segi7', f: true }, tl: { t: 'segi6', f: true }, tr: { t: 'square', f: false }, bl: { t: 'segi6', f: false }, br: { t: 'square', f: true } },
@@ -201,11 +201,11 @@ boxes: [
       { center: { t: 'segi5', f: true, inT: 'segi6', inF: false }, tl: { t: 'segi7', f: false }, tr: { t: 'segi5', f: true }, bl: { t: 'star', f: true }, br: { t: 'segi3', f: false } },
     ],
     options: [
-      { label: 'A', center: { t: 'segi4', f: true, inT: 'segi7', inF: false }, tl: { t: 'segi6', f: true }, tr: { t: 'square', f: false }, bl: { t: 'segi8', f: false }, br: { t: 'star', f: true } },
-      { label: 'B', center: { t: 'segi4', f: true, inT: 'segi7', inF: false }, tl: { t: 'segi6', f: false }, tr: { t: 'square', f: true }, bl: { t: 'diamond', f: true }, br: { t: 'circle', f: false } },
+      { label: 'A', center: { t: 'square', f: true, inT: 'segi7', inF: false }, tl: { t: 'segi6', f: true }, tr: { t: 'square', f: false }, bl: { t: 'segi8', f: false }, br: { t: 'star', f: true } },
+      { label: 'B', center: { t: 'square', f: true, inT: 'segi7', inF: false }, tl: { t: 'segi6', f: false }, tr: { t: 'square', f: true }, bl: { t: 'diamond', f: true }, br: { t: 'circle', f: false } },
       { label: 'C', center: { t: 'segi5', f: true, inT: 'segi6', inF: false }, tl: { t: 'segi6', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi8', f: true }, br: { t: 'star', f: false } },
-      { label: 'D', center: { t: 'segi4', f: true, inT: 'segi7', inF: false }, tl: { t: 'segi5', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'segi7', f: true }, br: { t: 'diamond', f: false } },
-      { label: 'E', center: { t: 'segi4', f: true, inT: 'segi7', inF: false }, tl: { t: 'segi6', f: false }, tr: { t: 'square', f: true }, bl: { t: 'star', f: false }, br: { t: 'segi8', f: true } },
+      { label: 'D', center: { t: 'square', f: true, inT: 'segi7', inF: false }, tl: { t: 'segi5', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'segi7', f: true }, br: { t: 'diamond', f: false } },
+      { label: 'E', center: { t: 'square', f: true, inT: 'segi7', inF: false }, tl: { t: 'segi6', f: false }, tr: { t: 'square', f: true }, bl: { t: 'star', f: false }, br: { t: 'segi8', f: true } },
     ]
   },
   {
@@ -219,17 +219,17 @@ boxes: [
       "5. Eksekusi Kotak 5: Dari kotak 4, Kolom Kiri (Persegi Putih & Segi-6 Hitam) sedang giliran diam, sehingga berubah bentuk jadi Segi-5 Putih dan Segi-7 Hitam (ralat: pada kotak 4 Kolom Kiri berevolusi menjadi Persegi dan Segi-6). Kolom Kanan (Segi-7 Putih & Segi-3 Hitam) bertukar posisi silang dan warnanya dibalik."
     ],
     boxes: [
-      { center: { t: 'segi4', f: false, dots: 5 }, tl: { t: 'circle', f: false }, tr: { t: 'segi5', f: false }, bl: { t: 'square', f: true }, br: { t: 'star', f: true } },
+      { center: { t: 'square', f: false, dots: 5 }, tl: { t: 'circle', f: false }, tr: { t: 'segi5', f: false }, bl: { t: 'square', f: true }, br: { t: 'star', f: true } },
       { center: { t: 'diamond', f: false, dots: 4 }, tl: { t: 'square', f: false }, tr: { t: 'segi6', f: false }, bl: { t: 'circle', f: true }, br: { t: 'circle', f: true } },
-      { center: { t: 'segi4', f: false, dots: 3 }, tl: { t: 'segi5', f: false }, tr: { t: 'circle', f: false }, bl: { t: 'segi3', f: true }, br: { t: 'segi6', f: true } },
+      { center: { t: 'square', f: false, dots: 3 }, tl: { t: 'segi5', f: false }, tr: { t: 'circle', f: false }, bl: { t: 'segi3', f: true }, br: { t: 'segi6', f: true } },
       { center: { t: 'diamond', f: false, dots: 2 }, tl: { t: 'segi3', f: false }, tr: { t: 'segi3', f: false }, bl: { t: 'segi5', f: true }, br: { t: 'segi7', f: true } },
     ],
     options: [
-      { label: 'A', center: { t: 'segi4', f: false, dots: 1 }, tl: { t: 'segi5', f: false }, tr: { t: 'segi7', f: false }, bl: { t: 'segi3', f: true }, br: { t: 'segi3', f: true } },
-      { label: 'B', center: { t: 'segi4', f: false, dots: 1 }, tl: { t: 'square', f: true }, tr: { t: 'segi7', f: true }, bl: { t: 'segi6', f: false }, br: { t: 'segi3', f: false } },
-      { label: 'C', center: { t: 'segi4', f: false, dots: 1 }, tl: { t: 'square', f: false }, tr: { t: 'segi7', f: false }, bl: { t: 'segi6', f: true }, br: { t: 'segi3', f: true } },
-      { label: 'D', center: { t: 'segi4', f: false, dots: 2 }, tl: { t: 'square', f: false }, tr: { t: 'segi7', f: false }, bl: { t: 'segi6', f: true }, br: { t: 'segi3', f: true } },
-      { label: 'E', center: { t: 'segi4', f: false, dots: 1 }, tl: { t: 'square', f: false }, tr: { t: 'segi3', f: false }, bl: { t: 'segi6', f: true }, br: { t: 'segi7', f: true } },
+      { label: 'A', center: { t: 'square', f: false, dots: 1 }, tl: { t: 'segi5', f: false }, tr: { t: 'segi7', f: false }, bl: { t: 'segi3', f: true }, br: { t: 'segi3', f: true } },
+      { label: 'B', center: { t: 'square', f: false, dots: 1 }, tl: { t: 'square', f: true }, tr: { t: 'segi7', f: true }, bl: { t: 'segi6', f: false }, br: { t: 'segi3', f: false } },
+      { label: 'C', center: { t: 'square', f: false, dots: 1 }, tl: { t: 'square', f: false }, tr: { t: 'segi7', f: false }, bl: { t: 'segi6', f: true }, br: { t: 'segi3', f: true } },
+      { label: 'D', center: { t: 'square', f: false, dots: 2 }, tl: { t: 'square', f: false }, tr: { t: 'segi7', f: false }, bl: { t: 'segi6', f: true }, br: { t: 'segi3', f: true } },
+      { label: 'E', center: { t: 'square', f: false, dots: 1 }, tl: { t: 'square', f: false }, tr: { t: 'segi3', f: false }, bl: { t: 'segi6', f: true }, br: { t: 'segi7', f: true } },
     ]
   },
   {
