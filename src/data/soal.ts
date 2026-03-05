@@ -105,7 +105,7 @@ boxes: [
       { center: { t: 'segi7', f: true }, tl: { t: 'diamond', f: false }, tr: { t: 'star', f: true }, bl: { t: 'circle', f: false }, br: { t: 'segi3', f: true } },
     ],
     options: [
-      { label: 'A', center: { t: 'segi8', f: false }, tl: { t: 'circle', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'diamond', f: false }, br: { t: 'circle', f: true } },
+      { label: 'A', center: { t: 'segi8', f: false }, tl: { t: 'circle', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'diamond', f: false }, br: { t: 'square', f: true } },
       { label: 'B', center: { t: 'segi8', f: false }, tl: { t: 'square', f: false }, tr: { t: 'circle', f: true }, bl: { t: 'square', f: false }, br: { t: 'star', f: true } },
       { label: 'C', center: { t: 'segi8', f: false }, tl: { t: 'star', f: false }, tr: { t: 'circle', f: true }, bl: { t: 'square', f: false }, br: { t: 'star', f: true } },
       { label: 'D', center: { t: 'segi8', f: false }, tl: { t: 'diamond', f: false }, tr: { t: 'diamond', f: true }, bl: { t: 'square', f: false }, br: { t: 'star', f: true } },
