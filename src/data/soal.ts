@@ -133,7 +133,7 @@ export const soalData: Soal[] = [
       { label: 'B', center: { t: 'segi8', f: false, dots: 4 }, tl: { t: 'square', f: false }, tr: { t: 'diamond', f: true }, bl: { t: 'circle', f: false }, br: { t: 'circle', f: false } },
       { label: 'C', center: { t: 'segi6', f: false, dots: 5 }, tl: { t: 'square', f: false }, tr: { t: 'diamond', f: true }, bl: { t: 'circle', f: false }, br: { t: 'circle', f: false } },
       { label: 'D', center: { t: 'segi8', f: false, dots: 5 }, tl: { t: 'diamond', f: false }, tr: { t: 'square', f: true }, bl: { t: 'circle', f: false }, br: { t: 'circle', f: false } },
-      { center: { t: 'segi7', f: true, inT: 'star', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
+      { label: 'E', center: { t: 'segi8', f: false, dots: 5 }, tl: { t: 'circle', f: false }, tr: { t: 'square', f: true }, bl: { t: 'diamond', f: false }, br: { t: 'square', f: false } },
     ]
   },
   {
@@ -157,7 +157,7 @@ export const soalData: Soal[] = [
       { label: 'B', center: { t: 'segi6', f: true, inT: 'star', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
       { label: 'C', center: { t: 'segi7', f: true, inT: 'circle', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } },
       { label: 'D', center: { t: 'segi7', f: true, inT: 'star', inF: false }, tl: { t: 'square', f: false }, tr: { t: 'segi3', f: true }, bl: { t: 'segi6', f: true }, br: { t: 'segi5', f: false } },
-      { center: { t: 'segi7', f: true, inT: 'star', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } }
+      { label: 'E', center: { t: 'segi7', f: true, inT: 'star', inF: false }, tl: { t: 'segi3', f: false }, tr: { t: 'square', f: true }, bl: { t: 'segi5', f: true }, br: { t: 'segi6', f: false } }
     ]
   },
   {
